@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { db } from "../routes/firebase";
 import Tweet from "./tweet";
+import { Unsubscribe } from "firebase/auth";
 
 export interface ITweet{
     id: string;
